@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATCH tr ':' '\n' | wc -1
+echo $PATCH tr '':'' ''\n'' | wc -l
